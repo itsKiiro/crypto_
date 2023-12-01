@@ -15,3 +15,14 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media(max-width: 1028px) {
+    .adContainer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+
+}

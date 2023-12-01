@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="Footer">
             <div>
-                <h3>Crypto<span>Cap</span></h3>
+                <h3>Crypto<span style={{ color: "rgb(25, 182, 182)" }}>Cap</span></h3>
                 <div className="socialLinksContainer">
                     <a href="https://instagram.com/marcel_revo" target="_blank" rel="noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
                     <a href="https://linkedin.com/in/itsKiiro" target="_blank" rel="noreferrer"><ion-icon name="logo-facebook"></ion-icon></a>

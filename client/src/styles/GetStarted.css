@@ -28,3 +28,26 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+
+@media(max-width: 1028px) {
+    .GetStarted {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .getStartedCard {
+        display: flex;
+        padding-right: 1em;
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+    }
+
+    .mobileDiv {
+        width: 100%;
+    }
+
+    .getStartedButtonContainer {
+        margin-bottom: 1rem;
+    }
+}

@@ -18,3 +18,11 @@
     width: fit-content;
     margin-top: 2rem;
 }
+
+@media(max-width: 1028px) {
+    .Start {
+        font-size: smaller;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}

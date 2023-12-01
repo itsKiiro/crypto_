@@ -71,3 +71,38 @@
     align-self: center;
     padding: 0.5rem;
 }
+
+@media(max-width: 1028px) {
+    .cryptoCategories {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .cryptoCategory {
+        display: flex;
+        align-items: center;
+    }
+
+    .cryptoCategoriesNavContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cryptosContainer {
+        overflow-x: scroll;
+        gap: 2rem;
+    }
+
+    .searchInput {
+        width: 100%;
+    }
+
+    .inputContainer {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .cryptoContainer {
+        gap: 4rem;
+    }
+}

@@ -54,7 +54,7 @@ const MarketUpdate = () => {
                     <h4 style={{ width: "24%" }}>NAME</h4>
                     <h4 style={{ width: "17%" }}>LAST PRICE</h4>
                     <h4 style={{ width: "17%" }}>CHANGE</h4>
-                    <h4 style={{ width: "17%" }}>MARKET STATS 7d</h4>
+                    <h4 className="mobileDisplay" style={{ width: "17%" }}>MARKET STATS 7d</h4>
                     <h4>TRADE</h4>
                 </div>
                 {portfolio.data && portfolio.data.length > 0 && portfolio.data.slice(0, 7).map((item) => (
@@ -63,7 +63,7 @@ const MarketUpdate = () => {
                         <p style={{ width: "24%" }}>{item.name}</p>
                         <p style={{ width: "17%" }}>{item.quote.USD.price.toFixed(2)}</p>
                         <p style={{ width: "17%" }}>{item.quote.USD.percent_change_24h.toFixed(2)}</p>
-                        <p style={{ width: "17%" }}>{item.quote.USD.percent_change_7d.toFixed(2)}</p>
+                        <p className="mobileDisplay" style={{ width: "17%" }}>{item.quote.USD.percent_change_7d.toFixed(2)}</p>
                         <Button text={"Trade"} />
                     </div>
                 ))}

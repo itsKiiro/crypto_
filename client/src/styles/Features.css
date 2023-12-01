@@ -37,3 +37,14 @@
 .featuresLinkContainer > a {
     color: #fff;
 }
+
+@media(max-width: 1028px) {
+    .articlesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FeaturesCardItem {
+        width: auto;
+    }
+}

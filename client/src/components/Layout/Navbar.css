@@ -1,0 +1,33 @@
+.Navbar {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navLinks {
+    display: flex;
+}
+
+.navLink {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.languageContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.languageSelectContainer {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.featuresHeaderContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.articlesContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.Features {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4rem;
+}
+
+.FeaturesCardItem {
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.4);
+    border-radius: 10px;
+    margin-top: 4rem;
+}

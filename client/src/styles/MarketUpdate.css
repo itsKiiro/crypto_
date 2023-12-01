@@ -1,0 +1,73 @@
+.MarketUpdate {
+    padding-left: 7%;
+    padding-right: 7%;
+    color: #fff;
+    padding-bottom: 10rem;
+}
+
+
+.cryptoCategories {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+.cryptoCategory {
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.081);
+    border-radius: 7px;
+}
+
+.cryptoCategoriesNavContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.searchInput {
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    background: none;
+    border: solid 1px #fff;
+    color: #fff;
+    letter-spacing: 1.7px;
+}
+
+.cryptosContainer {
+    border: solid 1px #ffffff35;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgba(255, 255, 255, 0.081);
+    display: flex;
+    flex-direction: column;
+}
+
+.cryptoContainer {
+    display: flex;
+    color: #fff;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.081);
+}
+
+.cryptoContainer > h4, .cryptoContainer > p {
+    flex: 0 0 auto; 
+    padding-right: 20px;
+    text-align: left;
+}
+
+.cryptoContainer > .Button > p {
+    margin: 0
+}
+
+.cryptoContainer > .Button {
+    padding: 0;
+    height: fit-content;
+    align-self: center;
+    padding: 0.5rem;
+}

@@ -1,0 +1,20 @@
+.Start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 5rem);
+    color: #fff;
+}
+
+.startHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.startHeaderContainer > .Button {
+    width: fit-content;
+    margin-top: 2rem;
+}

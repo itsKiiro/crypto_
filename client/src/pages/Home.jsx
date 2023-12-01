@@ -8,6 +8,7 @@ import Ad from "../components/Ad";
 import MarketUpdate from "../components/MarketUpdate";
 import GetStarted from "../components/GetStarted";
 import LearnAboutCrypto from "../components/LearnAboutCrypto";
+import Footer from "../components/Footer";
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
             <MarketUpdate />
             <GetStarted />
             <LearnAboutCrypto />
+            <Footer />
         </div>
     )
 }

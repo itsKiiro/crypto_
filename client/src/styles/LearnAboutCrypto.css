@@ -1,0 +1,31 @@
+.LearnAboutCrypto {
+    color: #fff;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 10rem;
+}
+
+.learnHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsContainer {
+    display: flex;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+}
+
+.NewsCardItem {
+    background-color: rgba(255, 255, 255, 0.081);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}

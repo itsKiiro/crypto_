@@ -1,25 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../styles/Features.css";
 import FeaturesCardItem from "./FeaturesCardItem";
-import axios from "axios";
 
 
 const Features = () => {
-
-    const [articles, setArticles] = useState([]);
-
-    useEffect(() => {
-        const fetchArticles = async () => {
-            try {
-                const response = await axios.get('http://localhost:8080/api/articles');
-                setArticles(response.data);
-            } catch (error) {
-                console.error('loading...');
-            }
-        };    
-        
-        fetchArticles();
-    }, [])
 
     return (
         <div className="Features">
@@ -28,14 +12,30 @@ const Features = () => {
                 <p>Explore sensational features to prepare your best investment in cryptocurrency</p>
             </div>
             <div className="articlesContainer">
-                {articles.results && articles.results.length > 0 && articles.results.splice(0, 4).map((item) => (
-                    <FeaturesCardItem 
-                        key={item.article_id}
-                        link={item.link}
-                        title={item.title}
-                        description={item.description}
-                    />
-                ))} 
+                <FeaturesCardItem 
+                    link={"https://karall.dev"}
+                    title={"Manage Portfolio"}
+                    description={"Buy and sell popular digital currencies, keep track of them in one place."}
+                    icon={"bookmarks-outline"}
+                />
+                <FeaturesCardItem 
+                    link={"https://karall.dev"}
+                    title={"Protected Securely"}
+                    description={"All cash balances are covered by FDIC insurance, up to a maximum of $250,000."}
+                    icon={"shield-checkmark-outline"}
+                />
+                <FeaturesCardItem 
+                    link={"https://karall.dev"}
+                    title={"Cryptocurrency Variety"}
+                    description={"Supports a variety of the most popular digital currencies and always uptodate."}
+                    icon={"logo-bitcoin"}
+                />
+                <FeaturesCardItem 
+                    link={"https://karall.dev"}
+                    title={"Learn Best Practice"}
+                    description={"Easy to know how crytocurrency works and friendly to newbies."}
+                    icon={"document-text-outline"}
+                />
             </div>
         </div>
     )

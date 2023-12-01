@@ -1,14 +1,14 @@
 import React from "react";
 
 
-const FeaturesCardItem = ({ link, title, description, imageUrl }) => {
+const FeaturesCardItem = ({ link, title, description, icon }) => {
 
 
 
     return (
         <div className="FeaturesCardItem">
             <div className="featuresImageContainer">
-                <img src={imageUrl} alt="" />
+                <ion-icon style={{ fontSize: "2.7rem", color: "#fff", marginTop: "2rem" }} name={`${icon}`}></ion-icon>
             </div>
             <div className="featuresInfoContainer">
                 <div className="featuresHeaderContainer">
